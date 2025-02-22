@@ -1,0 +1,79 @@
+[2025-2-21 22:28:2] Loaded 3 buttons
+[2025-2-21 22:28:2] Loaded 1 menus
+[2025-2-21 22:28:2] Loaded 1 modals
+[2025-2-21 22:28:2] Loaded 1 messages
+[2025-2-21 22:28:2] Loaded 3 events!
+[2025-2-21 22:28:2] Started refreshing application (/) commands.
+[2025-2-21 22:28:2] You have dev commands but no DEV_GUILD_ID in config.json - These will not be registered!
+[2025-2-21 22:28:2] Successfully reloaded application (/) commands.
+[2025-2-21 22:28:2] Applied missing intents: GuildMessages, DirectMessages
+[2025-2-21 22:28:2] Logging in...
+[2025-2-21 22:28:3] Logged in as Coding Share#1746!
+[2025-2-21 22:29:50] [RELOAD] Failed to load new file data - Was it just created?
+[2025-2-21 22:30:52] [COMMANDS] Failed to load ./commands/AntiSpamPing.js: No data property found
+[2025-2-21 22:30:52] Loaded 6 commands
+[2025-2-21 22:31:9] [COMMANDS] Failed to load ./commands/AntiSpamPing.js: No data property found
+[2025-2-21 22:31:9] Loaded 6 commands
+[2025-2-21 22:31:47] Loaded 7 commands
+[2025-2-21 22:31:54] [RELOAD] Successfully reloaded commands/AntiSpamPing.js
+[2025-2-21 22:33:3] [RELOAD] Successfully reloaded commands/AntiSpamPing.js
+[2025-2-21 22:34:41] [RELOAD] Successfully reloaded commands/AntiSpamPing.js
+
+[2025-2-21 22:35:15] SIGINT: Exiting...
+[2025-2-21 22:35:18] Loaded 7 commands
+[2025-2-21 22:35:18] Loaded 3 buttons
+[2025-2-21 22:35:18] Loaded 1 menus
+[2025-2-21 22:35:18] Loaded 1 modals
+[2025-2-21 22:35:18] Loaded 1 messages
+[2025-2-21 22:35:18] Loaded 3 events!
+[2025-2-21 22:35:18] Started refreshing application (/) commands.
+[2025-2-21 22:35:18] You have dev commands but no DEV_GUILD_ID in config.json - These will not be registered!
+[2025-2-21 22:35:18] Successfully reloaded application (/) commands.
+[2025-2-21 22:35:18] Applied missing intents: GuildMessages, DirectMessages
+[2025-2-21 22:35:18] Logging in...
+[2025-2-21 22:35:19] Logged in as Coding Share#1746!
+[2025-2-21 22:38:54] s3dking (1050793734352146585) > /antispamping activate
+[2025-2-21 22:38:54] TypeError: Cannot create property 'ephemeral' on string 'Anti-spam ping system activated.'\n
+    at ChatInputCommandInteraction.reply (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\utils\\Overrides\\Interactions.js:38:21)\n
+    at Object.execute (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\commands\\AntiSpamPing.js:46:23)\n
+    at InteractionHandler (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\events\\interactionCreate.js:96:20)\n
+    at execute (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\events\\interactionCreate.js:30:11)\n
+    at Client.emit (node:events:524:28)\n
+    at InteractionCreateAction.handle (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\utils\\Overrides\\InteractionEvent.js:98:10)\n
+    at module.exports [as INTERACTION_CREATE] (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\discord.js\\src\\client\\websocket\\handlers\\INTERACTION_CREATE.js:4:36)\n
+    at WebSocketManager.handlePacket (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketManager.js:348:31)\n
+    at WebSocketManager.<anonymous> (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketManager.js:232:12)\n
+    at WebSocketManager.emit (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@vladfrangu\\async_event_emitter\\dist\\index.cjs:287:31)
+[2025-2-21 22:39:24] [RELOAD] Successfully reloaded commands/AntiSpamPing.js
+[2025-2-21 22:39:26] [RELOAD] Successfully reloaded commands/AntiSpamPing.js
+[2025-2-21 22:39:50] [RELOAD] Successfully reloaded commands/AntiSpamPing.js
+[2025-2-21 22:39:55] s3dking (1050793734352146585) > /antispamping activate
+[2025-2-21 22:40:6] s3dking (1050793734352146585) > /antispamping set 15
+[2025-2-21 22:40:16] UNHANDLED REJECTION: DiscordAPIError[50013]: Missing Permissions\n
+    at handleErrors (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:727:13)\n
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n
+    at async SequentialHandler.runRequest (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:1128:23)\n
+    at async SequentialHandler.queueRequest (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:959:14)\n
+    at async _REST.request (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:1272:22)\n
+    at async GuildMemberManager.edit (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\discord.js\\src\\managers\\GuildMemberManager.js:382:15)
+[2025-2-21 22:40:16] UNHANDLED REJECTION: DiscordAPIError[50013]: Missing Permissions\n
+    at handleErrors (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:727:13)\n
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n
+    at async SequentialHandler.runRequest (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:1128:23)\n
+    at async SequentialHandler.queueRequest (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:959:14)\n
+    at async _REST.request (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:1272:22)\n
+    at async GuildMemberManager.edit (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\discord.js\\src\\managers\\GuildMemberManager.js:382:15)
+[2025-2-21 22:40:17] UNHANDLED REJECTION: DiscordAPIError[50013]: Missing Permissions\n
+    at handleErrors (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:727:13)\n
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n
+    at async SequentialHandler.runRequest (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:1128:23)\n
+    at async SequentialHandler.queueRequest (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:959:14)\n
+    at async _REST.request (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:1272:22)\n
+    at async GuildMemberManager.edit (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\discord.js\\src\\managers\\GuildMemberManager.js:382:15)
+[2025-2-21 22:40:17] UNHANDLED REJECTION: DiscordAPIError[50013]: Missing Permissions\n
+    at handleErrors (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:727:13)\n
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n
+    at async SequentialHandler.runRequest (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:1128:23)\n
+    at async SequentialHandler.queueRequest (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:959:14)\n
+    at async _REST.request (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:1272:22)\n
+    at async GuildMemberManager.edit (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\discord.js\\src\\managers\\GuildMemberManager.js:382:15)
