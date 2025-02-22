@@ -1,4 +1,4 @@
-const { SlashCommandBuilder } = require('@discordjs/builders');
+const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -21,7 +21,7 @@ module.exports = {
 				.setName('deactivate')
 				.setDescription('Deactivate the anti-spam ping system')),
 	async execute(interaction, client) {
-		if (!interaction.member.permissions.has('MANAGE_GUILD')) {
+		if (!interaction.member.permissions.has('ManageGuild')) {
 			return interaction.reply({ content: 'You do not have permission to use this command.', ephemeral: true });
 		}
 
