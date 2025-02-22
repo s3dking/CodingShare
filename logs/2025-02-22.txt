@@ -77,3 +77,5 @@
     at async SequentialHandler.queueRequest (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:959:14)\n
     at async _REST.request (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\@discordjs\\rest\\dist\\index.js:1272:22)\n
     at async GuildMemberManager.edit (C:\\Users\\kings\\OneDrive\\Desktop\\CodingShare\\node_modules\\discord.js\\src\\managers\\GuildMemberManager.js:382:15)
+[2025-2-21 22:57:12] [RELOAD] Successfully reloaded commands/AntiSpamPing.js
+[2025-2-21 22:57:16] [RELOAD] Successfully reloaded commands/AntiSpamPing.js
